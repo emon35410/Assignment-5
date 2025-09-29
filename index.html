@@ -13,8 +13,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <h1 class="text-3xl font-bold text-center text-green-700 mt-10">
-    Emergency Service Directory
-  </h1>
+  <!-- navbar section -->
+  <nav class="flex justify-between items-center px-5 md:px-10 py-4">
+    <div class="logo flex items-center gap-2">
+      <img class="h-[35px] md:h-[60px]" src="./assets/logo.png" alt="logo">
+      <h2 class="text-[#006747] font-extrabold md:text-2xl">
+        Emergency<br>Service
+      </h2>
+    </div>
+    <div class="nav-btn flex max-sm:flex-col gap-3 md:font-bold">
+      <p class=" bg-[#ecfff0] border-none rounded-3xl px-2 md:px-6 py-2 text-center flex items-center justify-center gap-2">
+        <span id="heart-count">0</span>
+        <img class="w-[20px]"  src="./assets/heart.png" alt="heart">
+      </p>
+      <p class=" bg-[#ecfff0] border-none rounded-3xl px-2 md:px-6 py-2 text-center flex items-center justify-center gap-2">
+        <span id="coin-count">100</span>
+        <img class="w-[20px]"  src="./assets/coin.png" alt="coin">
+      </p>
+      <p class=" bg-[#00A63E] text-white border-none rounded-3xl w-fit px-2 md:px-6 py-2 text-center flex items-center justify-center gap-2">
+        <span id="copy-count">0</span> Copy
+      </p>
+    </div>
+  </nav>
 </body>
 </html>
